@@ -5,11 +5,13 @@ program testingChars
 
     character :: ch
     integer :: i 
+    ! call date_and_time(ch)
 
     do i = 65, 122
         ch = achar(i)
         print*, i, ' ', ch
     end do
+
     
 
 end program testingChars
