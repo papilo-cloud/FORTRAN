@@ -19,6 +19,7 @@ program character
     title = 'Mr. '
     firstname = 'Abdul '
     lastname = 'Badamasi '
+    ! The concatenation operator //, concatenates characters.
     name = title//firstname//lastname
     greetings = 'Hello from Abdul'
 
